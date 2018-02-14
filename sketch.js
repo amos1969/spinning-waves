@@ -5,9 +5,11 @@ var rotationPhase;
 var waveVertices;
 var wavePhase;
 var animationPosition;
+var myCanvas;
 
 function setup() {
-    createCanvas(800, 800, WEBGL);
+    myCanvas = createCanvas(1000, 700, WEBGL);
+    myCanvas.parent("myContainer")
     numPoints = 8000;
     rotationPhase = 0;
     wavePhase = 0;
