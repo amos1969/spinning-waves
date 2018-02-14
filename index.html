@@ -7,10 +7,23 @@
         {
             padding: 0;
             margin: 0;
+            background: black;
+            color: white;
         }
         canvas
         {
             vertical-align: top;
+            padding: 0;
+            margin: auto;
+            display: block;
+            width: 1000px;
+        }
+        #p5_loading {
+            vertical-align: top;
+            padding: 0;
+            margin: auto;
+            display: block;
+            width: 456px;
         }
 
     </style>
@@ -18,5 +31,22 @@
       <script src="sketch.js"></script>
   </head>
   <body>
+  <h1>A P5.js Demo</h1>
+  <h2>Ironman's helmet to waves and back again as it spins.</h2>
+  <div id="myContainer">
+      <div id="p5_loading">
+      <img src="assets/reactor.jpg" />
+          Source: <a href="https://commons.wikimedia.org/wiki/File:Advanced_Test_Reactor.jpg">commons.wikimedia.org</a><br>
+          License: CC_BY_SA 2.0
+      </div>
+  </div>
+  This was based on working through the demo code here:
+  <a href="https://blog.kadenze.com/creative-technology/p5-js-crash-course-pumpkin-wave/">blog.kadenze.com</a><br>
+  The model was downloaded from: <a href="https://free3d.com/3d-model/iron-man-helmet-66193.html">free3d.com</a> and
+  then resized using Blender.
+  <br><br>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img alt="Creative Commons Licence" style="border-width:0"
+           src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
   </body>
 </html>
